@@ -1,0 +1,114 @@
+vae_ph_v1.0:
+	dimensions = [240, 120, 60, 30]
+	sampler_dim = 45
+	abs accuracy: 83.91613364219666 +- 5.945618629455566
+	sqr accuracy: 98.036789894104 +- 1.4689751863479614
+
+	
+vae_ph_v2.0:
+	dimensions = [240, 150, 75, 30]
+	sampler_dim = 60
+	abs accuracy: 82.95401930809021 +- 6.446003437042236
+	sqr accuracy: 97.81059622764587 +- 1.6260929107666016
+
+	
+vae_ph_v3.0: (BEST)
+	dimensions = [400, 200, 100, 50]
+	sampler_dim = 75
+	lr = 0.000075
+	abs accuracy: 80.09172677993774 +- 5.831235885620117
+	sqr accuracy: 97.12159633636475 +- 1.578082799911499
+	loss: 396.9532
+	reconstruction_loss: 390.2190
+	kl_loss: 6.3684
+
+	
+vae_ph_v3.1:
+	dimensions = [400, 200, 100, 50]
+	sampler_dim = 75
+	lr = 0.000015
+	abs accuracy: 78.8294792175293 +- 6.092241287231445
+	sqr accuracy: 96.78752422332764 +- 1.6987167596817017
+	loss: 401.3833
+	reconstruction_loss: 392.0347
+	kl_loss: 9.3856
+
+
+vae_ph_v4.0:
+	dimensions = [320, 160, 80, 40]
+	sampler_dim = 50
+	lr = 0.000025
+	abs accuracy: 76.89617276191711 +- 8.830949783325195
+	sqr accuracy: 96.14804983139038 +- 2.9649531841278076
+	loss: 400.9717
+	reconstruction_loss: 393.0054
+	kl_loss: 7.8170
+
+	
+======= DIFFERENT SAMPLER =======
+
+vae_ph_v1.1:
+	dimensions = [240, 120, 60, 30]
+	sampler_dim = 45
+	lr = 0.00005
+	abs accuracy: 89.8125410079956 +- 4.8136820793151855
+	sqr accuracy: 99.07130002975464 +- 1.1257463693618774
+	loss: 379.1285
+	reconstruction_loss: 378.8299
+	kl_loss: 0.2818
+
+
+vae_ph_v4.1:
+	dimensions = [320, 160, 80, 40]
+	sampler_dim = 50
+	lr = 0.000025
+	abs accuracy: 89.5035982131958 +- 4.535233974456787
+	sqr accuracy: 99.04143214225769 +- 1.0271711349487305
+	loss: 379.8745
+	reconstruction_loss: 379.3643
+	kl_loss: 0.4682
+
+
+vae_ph_v3.2: (BEST)
+	dimensions = [400, 200, 100, 50]
+	sampler_dim = 75
+	lr = 0.00005
+	abs accuracy: 90.38653373718262 +- 4.581945419311523
+	sqr accuracy: 99.16731715202332 +- 1.0125746726989746
+	loss: 378.9522
+	reconstruction_loss: 378.6886
+	kl_loss: 0.2686
+
+	
+======= FIXED SAMPLER SERIALISATION =======
+
+vae_ph_v1.2:
+	dimensions = [240, 120, 60, 30]
+	sampler_dim = 45
+	lr = 0.00005
+	abs accuracy: 90.07750749588013 +- 4.656357765197754
+	sqr accuracy: 99.12049770355225 +- 1.0410082340240479
+	loss: 379.2258
+	reconstruction_loss: 378.9009
+	kl_loss: 0.2875
+
+	
+======== LARGER TRAINING SET ==========
+
+vae_ph_v1.3:
+	dimensions = [240, 120, 60, 30]
+	sampler_dim = 45
+	lr = 0.00005
+	abs accuracy: 89.9246335029602 +- 3.612307548522949
+	sqr accuracy: 99.16273355484009 +- 0.7098536491394043
+	loss: 379.8603
+	reconstruction_loss: 380.6167
+	kl_loss: 0.1865
+
+	
+======== HIGH RES TRAINING SET ==========
+
+vae_ph_v5.0:
+	dimensions = [240, 120, 60, 30]
+	sampler_dim = 45
+	lr = 0.00005

@@ -1,0 +1,9 @@
+h5py==3.7.0
+numpy==1.23.5
+matplotlib==3.6.2
+tensorflow==2.11.0
+keras==2.11.0
+networkx==2.7.0
+graphviz==0.19.1
+scipy==1.9.3
+tqdm==4.63.0
